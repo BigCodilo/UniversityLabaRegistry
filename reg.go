@@ -3,8 +3,6 @@ package main
 import (
 	"fmt" //For work with registry we need get this package
 	//go get golang.org/x/sys/windows/registry - daownload this packege
-
-	"github.com/gotk3/gotk3/gtk"
 )
 
 func main() {
