@@ -6,9 +6,6 @@ import (
 )
 
 func main() {
-	gtk.Init(nil)
-	win, _ := gtk.WindowNew(gtk.WINDOW_TOPLEVEL)
-
 	fmt.Println("Создать расширенеи .zzz? (y - yes, n - no)")
 	var answer string
 	fmt.Scan(&answer)
